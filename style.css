@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.section1 {
+   
+    background-color:rgb(216, 166, 183);
+    height:1000px;
+}
+header {
+    height:50px;
+    display:flex;
+    justify-content:center;
+    margin-bottom:20px;
+}
+.header-div1 {
+    width:300px;
+    height:50px;
+    background-color:#A59D9C;
+    margin:0px;
+    margin-left:150px;
+    border-radius:10px;
+
+}
+.div-clear {
+    clear:both;
+}
+main {
+    background-color:#39A1AD;
+    width:95%;
+    margin-top:50px;
+    margin-left:48px;
+    margin-right:50px;
+    display:flex;
+    justify-content:center;
+    border-radius:10px;
+}
+.left-div {
+    width:450px;
+    height:600px;
+   
+    padding:20px;
+   
+    
+}
+.left-div h1 {
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    padding-top:15px;
+    color:white;
+}
+.left-div h1:hover {
+    color:tomato;
+}
+.left-div p {
+    padding:10px;
+    font-weight:bold;
+    color:white;
+    text-align:justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.left-div p:hover {
+    color:tomato;
+}
+
+
+.input-text {
+    width:400px;
+    text-align:center;
+    padding:15px;
+    border:1px solid white;
+    border-radius:5px;
+    margin-top:15px;
+}
+.input-text-area {
+    width:400px;
+    text-align:center;
+    padding:15px;
+    border:1px solid white;
+    border-radius:5px;
+    margin-top:15px;
+    height:200px;
+}
+.btn2 {
+   margin-left:80px;
+   width:90px;
+   margin-top:30px;
+   padding:15px;
+   border:1px solid white;
+   border-radius:10px;
+   background-color:black;
+   color:white;
+}
+.btn1 {
+   margin-left:20px;
+   width:180px;
+   padding:15px;
+   border:1px solid white;
+   border-radius:10px;
+   background-color:black;
+   color:white;
+}
+.btn2:hover {
+    color:black;
+    background-color:white;
+}
+.btn1:hover {
+    color:black;
+    background-color:white;
+}
+.image {
+    padding:10px;
+    border-radius:20px;
+}
+.image:hover {
+    box-shadow:2px 2px 2px black;
+}
+.image-google {
+    border-radius:150px;
+    
+}
+.image-google:hover {
+    box-shadow: 2px 2px 2px black;
+    
+}
+.image-one-div {
+display:flex;
+justify-content:center;
+}
+.image-two-div {
+    display:flex;
+    justify-content:center;
+}
+.last-div{
+    position:relative;
+    
+}
+footer {
+    background-color:black;
+    width:95%;
+    margin:0 auto;
+    color:red;
+   height:40px;
+   padding:10px;
+   text-align:center;
+   border-radius:10px;
+}
+footer p:hover {
+     color:white;
+}
+.input-text:hover {
+    box-shadow:5px 5px 5px 5px rgb(0, 0, 0);
+}
+.input-text-area:hover {
+    box-shadow:5px 5px 5px 5px rgb(0, 0, 0);
+}
